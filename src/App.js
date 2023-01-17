@@ -13,7 +13,17 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Alina-Marija Lapčiuk</small>
+          <small>
+            Coded by Alina-Marija Lapčiuk and is {""}
+            <a
+              href="https://github.com/Mariooona/react-dictionary-project"
+              target="_blank"
+              title="GitHub-link"
+            >
+              open-sourced {""}
+            </a>
+            on GitHub
+          </small>
         </footer>
       </div>
     </div>
