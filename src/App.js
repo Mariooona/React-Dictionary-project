@@ -19,6 +19,7 @@ export default function App() {
               href="https://github.com/Mariooona/react-dictionary-project"
               target="_blank"
               title="GitHub-link"
+              rel="noreferrer"
             >
               open-sourced {""}
             </a>
