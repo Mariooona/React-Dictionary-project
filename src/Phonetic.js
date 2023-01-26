@@ -1,0 +1,14 @@
+import React from "react";
+
+export default function (props) {
+  return (
+    <div className="Phonetic">
+      <a href={props.phonetic.audio} target="_blank">
+        Listen
+      </a>
+      <br />
+      {props.phonetic.text}
+    </div>
+  );
+}
+//Add a player link : https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
