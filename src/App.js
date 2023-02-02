@@ -14,16 +14,27 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Coded by Alina-Marija Lapčiuk and is {""}
+            Coded by <span className="name"> Alina-Marija Lapčiuk </span> and is{" "}
+            {""}
             <a
               href="https://github.com/Mariooona/react-dictionary-project"
               target="_blank"
               title="GitHub-link"
               rel="noreferrer"
             >
-              open-sourced {""}
+              open-sourced
             </a>
-            on GitHub
+            {""} and hosted {""}
+            <a
+              href="https://main--dynamic-valkyrie-9503b5.netlify.app/"
+              target="_blank"
+              title="Netlify-link"
+              rel="noreferrer"
+            >
+              {""}
+              on Netlify
+              {""}
+            </a>
           </small>
         </footer>
       </div>
